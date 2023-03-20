@@ -1,0 +1,291 @@
+body {
+  max-width: 1920px;
+  background: #eae8fe;
+}
+.wrapper {
+  max-width: 748px;
+  margin: auto;
+}
+.logo {
+  width: 386px;
+  margin: auto;
+}
+.container {
+  display: flex;
+  gap: 28px;
+  margin-top: 68px;
+}
+section {
+  width: 360px;
+  padding: 31px 27px 28px;
+  background: #fff;
+}
+section:nth-child(2) {
+  padding-top: 0px;
+}
+.left {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  width: min(748px, 100%);
+  margin: 0 auto 25px;
+}
+.left .content-item {
+  position: relative;
+  width: 94px;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 3px 5px;
+  border-radius: 10px;
+  width: calc((100% - (12px * 2)) / 3);
+  padding: 12px;
+}
+.left .content-item:nth-child(2)::after {
+  content: '';
+  display: block;
+  inset: 0;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.8);
+  border-radius: 5px;
+}
+.content-item:nth-child(4),
+.content-item:nth-child(7) {
+  margin-right: 0;
+}
+.content-item.select {
+  border: 3px solid #6327fe;
+}
+.content-item .cola-img {
+  width: 35.86px;
+  height: 64.86px;
+  margin: auto;
+}
+.content-item p {
+  font-size: 9px;
+  padding: 6px 0 7px;
+}
+.sold_out::before {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(-17deg);
+  z-index: 1;
+  content: '품절';
+  display: block;
+  width: 45px;
+  height: 21px;
+  border: double 2px #eae8fe;
+
+  color: #eae8fe;
+  font-weight: 900;
+  line-height: 19px;
+}
+.content-item .product_btn {
+  display: block;
+  margin: auto;
+  width: 70px;
+  background: #6327fe;
+  border-radius: 50px;
+  padding: 5px 15px;
+  font-size: 12px;
+  color: #fff;
+}
+.money_input input {
+  width: 200px;
+  border-radius: 5px;
+  padding: 6px 10px 7px;
+  border: 1px solid #bdbdbd;
+}
+.money_inout,
+.money_input {
+  display: flex;
+  margin-bottom: 11px;
+}
+.money_wrap .balance {
+  display: flex;
+  width: 200px;
+  background: #eae8fe;
+  border-radius: 5px;
+  padding: 6px 10px 7px;
+  font-size: 14px;
+}
+.balance span:nth-child(2) {
+  margin-left: auto;
+}
+.balance_btn,
+.money_input_btn {
+  width: 94px;
+  margin-left: auto;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 3px 5px;
+  text-align: center;
+  border-radius: 5px;
+  font-size: 13px;
+  padding: 6px 9px;
+}
+.list_wrap {
+  display: flex;
+}
+.list_wrap ul {
+  overflow: auto;
+  width: 200px;
+  height: 106px;
+  background: #eae8fe;
+  border-radius: 5px;
+  border: 1px solid #bdbdbd;
+  padding: 12px;
+}
+.list_wrap ul::-webkit-scrollbar {
+  width: 4px;
+}
+.list_wrap ul::-webkit-scrollbar-thumb {
+  background-color: #fff;
+}
+.list_wrap ul li {
+  display: flex;
+  align-items: center;
+  width: 170px;
+  background: #fff;
+  padding: 6px 8px 7px 10px;
+  margin-bottom: 6px;
+  border-radius: 5px;
+}
+.list_wrap ul li .select_product {
+  width: 18px;
+}
+ul li p {
+  font-size: 9px;
+  margin-left: 10px;
+}
+ul li .number {
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  border: 1px solid #bdbdbd;
+  text-align: center;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: 500;
+  margin-left: auto;
+}
+.get_btn {
+  width: 94px;
+  line-height: 106px;
+  text-align: center;
+  background: #6327fe;
+  border-radius: 5px;
+  margin-left: auto;
+  color: #fff;
+  font-size: 13px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 3px 5px;
+}
+.right .possessed_money {
+  display: flex;
+  background-color: #eae8fe;
+  border-radius: 5px;
+  font-size: 14px;
+  padding: 6px 10px;
+}
+.possessed_money span:nth-child(2) {
+  margin-left: auto;
+}
+.possessed_money_wrap {
+  padding-top: 9px;
+}
+.possessed_money_wrap::after {
+  content: '';
+  display: block;
+  width: auto;
+  display: block;
+  height: 35px;
+  margin: 9px -27px 0px -27px;
+  background-color: #eae8fe;
+}
+.drink_obtained_list {
+  padding-top: 20px;
+}
+.drink_obtained_list h2 {
+  font-size: 14px;
+  font-weight: 700;
+  text-align: center;
+}
+.drink_obtained_list ul {
+  overflow-y: scroll;
+  border: 1px solid #bdbdbd;
+  border-radius: 5px;
+  background-color: #eae8fe;
+  padding: 12px;
+  margin-top: 20px;
+  width: auto;
+  height: 364px;
+}
+.drink_obtained_list ul::-webkit-scrollbar {
+  width: 4px;
+}
+.drink_obtained_list ul::-webkit-scrollbar-thumb {
+  background-color: #fff;
+}
+
+.drink_obtained_list ul li {
+  display: flex;
+  align-items: center;
+  background: #fff;
+  padding: 6px 8px 7px 10px;
+  margin-bottom: 6px;
+  border-radius: 5px;
+}
+.drink_obtained_list .get-item {
+  width: 18px;
+}
+.drink_obtained_list span {
+  display: block;
+  text-align: right;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 17px;
+  padding-top: 10px;
+}
+a {
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  body {
+    background: #fff;
+  }
+  .wrapper {
+    max-width: 100%;
+  }
+  .logo {
+    width: 166px;
+  }
+  .container {
+    display: block;
+    margin-top: 0;
+  }
+  section {
+    width: 100%;
+    padding: 24px 27px 28px;
+  }
+  .possessed_money_wrap::after {
+    display: none;
+  }
+  .possessed_money_wrap {
+    margin-bottom: 40px;
+  }
+  .money_wrap .balance,
+  .money_input input,
+  .list_wrap ul {
+    width: 70%;
+  }
+  .money_wrap .balance_btn,
+  .money_input_btn,
+  .get_btn {
+    width: 25%;
+  }
+  .balance_btn,
+  .money_input_btn {
+    white-space: nowrap;
+  }
+  .list_wrap ul li {
+    width: 100%;
+  }
+}
