@@ -1,11 +1,6 @@
 # 밴딩머신 레이아웃
 
 # 레이아웃
-Login - input 창에 이벤트 발생시 사용자 입력값(e.target.value) 받아온다
-Login - 1의 데이터 값으로 유효성 검사 : ID, PW value 값으로 and연산자를 담은 변수를 삼항 연산자로 각각 참 : 거짓으로 판별 후 로그인 버튼 disabled, color 활성화
-Main - input '게시' 버튼 onClick시 빈state에 value값 id, name -> push , map으로 새로운 값을 반환하며 댓글 생성
-Main - 자식 컴포넌트로 props 전달하는 파일 만든 후 props를 인자로 받아 사용자 입력값 전달
-map 함수 적용시 key prop을 부여하는 이유 -> map() 함수를 이용하여 여러 다양한 데이터, 반복 실행 -> 새 배열 반환 가능
 - 전체 레이아웃을 .wrapper로 감싸준다
 - 로고 이미지가 들어갈 h1과 .container로 감싼 각각의 section인 음료 머신, 획득한 음료 리스트를 display:flex 적용한다
 - 첫번째 음료 머신인 section은 세개의 div로 나눠 선택된 음료는 
