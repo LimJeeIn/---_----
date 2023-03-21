@@ -11,4 +11,4 @@
 
 # 아쉬운 점 / 문제 해결
 두번째 section의 획득한 음료 목록인 ul에서 overflow-scroll을 적용했지만 보이지 않는다 height를 줄여야만 scroll이 나오는 상태이다.
-레이아웃을 수정하여 ul 바깥으로 div로 감싼 뒤 scoll css 속성에 대해 찾아본 뒤 적용해볼 예정이다
+레이아웃을 수정하여 ul 바깥으로 div로 감싼 뒤 scroll css 속성에 대해 찾아본 뒤 적용해볼 예정이다
