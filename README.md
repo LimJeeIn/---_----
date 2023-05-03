@@ -1,5 +1,8 @@
 # 밴딩머신
 
+![image](https://user-images.githubusercontent.com/54615356/235932662-4e48e20d-b3cd-420d-a349-4ed2ff68498d.jpg)
+
+
 # 레이아웃
 - 전체 레이아웃을 .wrapper로 감싸준다
 - 로고 이미지가 들어갈 h1과 .container로 감싼 각각의 section인 음료 머신, 획득한 음료 리스트를 display:flex 적용한다
